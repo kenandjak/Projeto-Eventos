@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 body {
     margin: 0;
     padding: 0;
@@ -11,10 +11,43 @@ body {
     text-align: center;
 }
 
+h1{
+    color: blueviolet;
+    text-align: center;
+    text-shadow: 1px 1px 0.5px black
+}
+
+#propaganda {
+    background-color: #b6c4ccb6;
+    border-radius: 15px;
+    box-shadow: 5px 5px 12px #776c578d;
+    width:400px;
+    padding:10px;
+    margin: auto;
+}
+
 #social-links {
     display: flex;
     justify-content: center;
-  
+    gap: 32px;
     padding: 24px 0;
     font-size: 24px;
   }
+
+#social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: background 0.2s;
+    border-radius: 50%;
+}
+
+#social-links a:hover {
+    background: rgba(190, 119, 147, 0.39);
+    padding: 16px;
+}
+
+address{
+    text-align: center;
+}
