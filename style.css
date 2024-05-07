@@ -14,7 +14,13 @@ body {
 h1{
     color: blueviolet;
     text-align: center;
-    text-shadow: 1px 1px 0.5px black
+    text-shadow: 2px 2px 1px black;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400px;
+    font-style: bold;
+    font-size: 4em;
+    margin: 15px;
+    padding: 10px;
 }
 
 #propaganda {
@@ -50,4 +56,6 @@ h1{
 
 address{
     text-align: center;
+    margin:20px;
+    padding:20px;
 }
