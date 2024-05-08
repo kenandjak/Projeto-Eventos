@@ -43,7 +43,6 @@ h1{
     padding: 24px 0;
     font-size: 24px;
 }
-
 #social-links a{
     display: flex;
     align-items: center;
@@ -52,10 +51,18 @@ h1{
     transition: background 0.2s;
     border-radius: 50%;
 }
-
 #social-links a:hover {
     background: rgba(190, 119, 147, 0.39);
     padding: 16px;
+}
+
+#next{
+    font-size:18px;
+}
+#next a:hover{
+    color: #b335eaea;
+    font-size: 19px;
+    text-shadow: 1.1px 1.1px 0.5px #ffffffa2;
 }
 
 address{
