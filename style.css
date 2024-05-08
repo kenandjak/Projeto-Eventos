@@ -7,8 +7,12 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    font: normal 15pt Times;
+    text-shadow: 1.1px 1.1px 0.5px #ffffffa2;
     text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400px;
+    font-size: 1.3em;
+    font-style: lighter;
 }
 
 h1{
@@ -29,7 +33,7 @@ h1{
     box-shadow: 5px 5px 12px #776c578d;
     width:400px;
     padding:10px;
-    margin: auto;
+    margin: auto;  
 }
 
 #social-links {
@@ -38,7 +42,7 @@ h1{
     gap: 32px;
     padding: 24px 0;
     font-size: 24px;
-  }
+}
 
 #social-links a{
     display: flex;
@@ -58,4 +62,5 @@ address{
     text-align: center;
     margin:20px;
     padding:20px;
+    font-size: 18px;
 }
