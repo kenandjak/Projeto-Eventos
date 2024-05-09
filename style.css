@@ -56,12 +56,14 @@ h1{
     padding: 16px;
 }
 
-#next{
+#next a{
     font-size:18px;
+    text-decoration: none
 }
 #next a:hover{
     color: #b335eaea;
     font-size: 19px;
+    text-decoration: underline;
     text-shadow: 1.1px 1.1px 0.5px #ffffffa2;
 }
 
